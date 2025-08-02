@@ -1,5 +1,6 @@
 import requests as rq
 import os
+from typing import Union
 
 GET_ONE_PLAYLIST_SPOTIFY = os.getenv("GET_ONE_PLAYLIST_SPOTIFY")
 
